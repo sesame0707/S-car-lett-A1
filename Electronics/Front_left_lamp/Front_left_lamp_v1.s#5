@@ -5162,19 +5162,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="5MM"/>
-<part name="LED2" library="led" deviceset="LED" device="5MM"/>
-<part name="LED3" library="led" deviceset="LED" device="5MM"/>
-<part name="LED4" library="led" deviceset="LED" device="5MM"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0204/2V"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="2V2"/>
+<part name="LED2" library="led" deviceset="LED" device="5MM" value="2V2"/>
+<part name="LED3" library="led" deviceset="LED" device="5MM" value="2V2"/>
+<part name="LED4" library="led" deviceset="LED" device="5MM" value="2V2"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="220"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V" value="220"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="220"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/2V" value="220"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X2" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="261.62" y="7.62" size="2.54" layer="91">1.0</text>
+<text x="205.486" y="11.176" size="2.54" layer="91">1</text>
+<text x="175.26" y="27.94" size="2.54" layer="91">Author: sesame0707</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

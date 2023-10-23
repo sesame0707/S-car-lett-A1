@@ -5162,10 +5162,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="Main"/>
-<part name="LED1" library="led" deviceset="LED" device="5MM" value="2.58V"/>
-<part name="LED2" library="led" deviceset="LED" device="5MM" value="2.58V"/>
-<part name="LED3" library="led" deviceset="LED" device="5MM" value="2.58V"/>
-<part name="LED4" library="led" deviceset="LED" device="5MM" value="1.88V"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="2.58 V">
+<attribute name="CURRENT" value="0.14 mA"/>
+</part>
+<part name="LED2" library="led" deviceset="LED" device="5MM" value="2.58 V">
+<attribute name="CURRENT" value="0.14 mA"/>
+</part>
+<part name="LED3" library="led" deviceset="LED" device="5MM" value="2.58 V">
+<attribute name="CURRENT" value="0.14 mA"/>
+</part>
+<part name="LED4" library="led" deviceset="LED" device="5MM" value="1.88 V">
+<attribute name="CURRENT" value="1.42 mA"/>
+</part>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
@@ -5182,10 +5190,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
-<instance part="LED1" gate="G$1" x="81.28" y="144.78"/>
-<instance part="LED2" gate="G$1" x="101.6" y="144.78"/>
-<instance part="LED3" gate="G$1" x="124.46" y="144.78"/>
-<instance part="LED4" gate="G$1" x="81.28" y="96.52"/>
+<instance part="LED1" gate="G$1" x="81.28" y="144.78">
+<attribute name="CURRENT" x="81.28" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED2" gate="G$1" x="101.6" y="144.78">
+<attribute name="CURRENT" x="101.6" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED3" gate="G$1" x="124.46" y="144.78">
+<attribute name="CURRENT" x="124.46" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED4" gate="G$1" x="81.28" y="96.52">
+<attribute name="CURRENT" x="81.28" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R1" gate="G$1" x="81.28" y="160.02" rot="R90"/>
 <instance part="R2" gate="G$1" x="101.6" y="160.02" rot="R90"/>
 <instance part="R3" gate="G$1" x="124.46" y="160.02" rot="R90"/>

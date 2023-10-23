@@ -5177,7 +5177,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="0204/2V" value="1K"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="0204/2V" value="680"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X2" device="" value="2X2"/>
 </parts>
 <sheets>
