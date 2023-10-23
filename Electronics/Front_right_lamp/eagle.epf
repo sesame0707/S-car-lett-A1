@@ -348,7 +348,7 @@ UsedLibrary="C:/EAGLE-7.3.0/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 1919 1016"
+Loc="-8 -8 1911 1008"
 State=1
 Number=0
 
