@@ -5256,8 +5256,8 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="COLOR" value="Yellow"/>
 <attribute name="CURRENT" value="1.42 mA"/>
 </part>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="3K3"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V" value="3K3"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="6K8"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V" value="6K8"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="680"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="0204/2V" value="1K"/>
 <part name="LED4" library="led" deviceset="LED" device="5MM" value="1.83 V">

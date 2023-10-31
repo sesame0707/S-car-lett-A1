@@ -5243,7 +5243,7 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="FRAME1"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM" value="2.58 V">
 <attribute name="CURRENT" value="0.14 mA"/>
 </part>

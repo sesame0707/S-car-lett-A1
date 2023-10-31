@@ -5244,25 +5244,30 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="FRAME1"/>
-<part name="LED1" library="led" deviceset="LED" device="5MM" value="2.58 V">
-<attribute name="CURRENT" value="0.14 mA"/>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="1.83 V">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT" value="1.48 mA"/>
 </part>
-<part name="LED2" library="led" deviceset="LED" device="5MM" value="2.58 V">
-<attribute name="CURRENT" value="0.14 mA"/>
+<part name="LED2" library="led" deviceset="LED" device="5MM" value="1.83 V">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT" value="1.48 mA"/>
 </part>
 <part name="LED3" library="led" deviceset="LED" device="5MM" value="1.88 V">
+<attribute name="COLOR" value="Yellow"/>
 <attribute name="CURRENT" value="1.42 mA"/>
 </part>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0204/2V" value="3K3"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="0204/2V" value="3K3"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0204/2V" value="680"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="0204/2V" value="1K"/>
-<part name="LED4" library="led" deviceset="LED" device="5MM" value="1.88 V">
-<attribute name="CURRENT" value="1.42 mA"/>
+<part name="LED4" library="led" deviceset="LED" device="5MM" value="1.83 V">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT" value="1.48 mA"/>
 </part>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0204/2V" value="680"/>
-<part name="LED5" library="led" deviceset="LED" device="5MM" value="1.88 V">
-<attribute name="CURRENT" value="1.42 mA"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="0204/2V" value="4K7"/>
+<part name="LED5" library="led" deviceset="LED" device="5MM" value="2.58 V">
+<attribute name="COLOR" value="White"/>
+<attribute name="CURRENT" value="0.14 mA"/>
 </part>
 <part name="X1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-05-PIN" device="-ROUND-PAD"/>
 </parts>
@@ -5278,12 +5283,15 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="LED1" gate="G$1" x="58.42" y="167.64">
 <attribute name="CURRENT" x="58.42" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="58.42" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED2" gate="G$1" x="78.74" y="167.64">
 <attribute name="CURRENT" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="78.74" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED3" gate="G$1" x="58.42" y="119.38">
 <attribute name="CURRENT" x="58.42" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="58.42" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="58.42" y="182.88" rot="R90"/>
 <instance part="R2" gate="G$1" x="78.74" y="182.88" rot="R90"/>
@@ -5291,10 +5299,12 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <instance part="R4" gate="G$1" x="78.74" y="121.92" rot="R90"/>
 <instance part="LED4" gate="G$1" x="78.74" y="106.68">
 <attribute name="CURRENT" x="78.74" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="78.74" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="99.06" y="109.22" rot="R90"/>
 <instance part="LED5" gate="G$1" x="99.06" y="93.98">
 <attribute name="CURRENT" x="99.06" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="99.06" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="-1" x="203.2" y="193.04"/>
 <instance part="X1" gate="-2" x="203.2" y="190.5"/>

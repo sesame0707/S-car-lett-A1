@@ -5275,7 +5275,7 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <sheet>
 <plain>
 <text x="175.26" y="27.94" size="2.54" layer="91">Author: sesame0707</text>
-<text x="205.994" y="11.43" size="2.54" layer="91">3</text>
+<text x="205.994" y="11.43" size="2.54" layer="91">4</text>
 <text x="261.62" y="7.112" size="2.54" layer="91">1.0</text>
 </plain>
 <instances>
@@ -5349,7 +5349,7 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <label x="165.1" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="API_TURN_LEFT" class="0">
+<net name="API_TURN_RIGHT" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="139.7" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
