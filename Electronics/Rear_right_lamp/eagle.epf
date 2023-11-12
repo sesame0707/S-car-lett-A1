@@ -346,10 +346,11 @@ UsedLibrary="C:/EAGLE-7.3.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/zilog.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/downloaded/Rembrandt Electronics - JST XH Connectors v1-0.lbr"
+UsedLibrary="C:/EAGLE-7.3.0/lbr/downloaded/rc-master-smd.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 1919 1016"
+Loc="-8 -8 1911 1008"
 State=1
 Number=0
 
