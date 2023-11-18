@@ -345,8 +345,8 @@ UsedLibrary="C:/EAGLE-7.3.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/zilog.lbr"
-UsedLibrary="C:/EAGLE-7.3.0/lbr/downloaded/Rembrandt Electronics - JST XH Connectors v1-0.lbr"
 UsedLibrary="C:/EAGLE-7.3.0/lbr/downloaded/rc-master-smd.lbr"
+UsedLibrary="C:/EAGLE-7.3.0/lbr/downloaded/Rembrandt Electronics - JST XH Connectors v1-0.lbr"
 
 [Win_1]
 Type="Control Panel"
