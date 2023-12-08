@@ -133,12 +133,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="46.99" width="0.0254" layer="20"/>
-<wire x1="0" y1="46.99" x2="33.02" y2="46.99" width="0.0254" layer="20"/>
-<wire x1="33.02" y1="46.99" x2="33.02" y2="0" width="0.0254" layer="20"/>
-<wire x1="33.02" y1="0" x2="0" y2="0" width="0.0254" layer="20"/>
-<dimension x1="33.02" y1="0" x2="0" y2="0" x3="16.51" y3="-3.81" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="46.99" x3="-3.81" y3="23.495" textsize="1.778" layer="47"/>
+<wire x1="0" y1="0" x2="0" y2="49.53" width="0.0254" layer="20"/>
+<wire x1="0" y1="49.53" x2="74.93" y2="49.53" width="0.0254" layer="20"/>
+<wire x1="74.93" y1="49.53" x2="74.93" y2="0" width="0.0254" layer="20"/>
+<wire x1="74.93" y1="0" x2="0" y2="0" width="0.0254" layer="20"/>
+<dimension x1="3.81" y1="44.45" x2="8.89" y2="44.45" x3="6.35" y3="38.1" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="con-ptr500">
@@ -386,147 +385,98 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BATTERY_-" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="20.32" rot="R90"/>
-<element name="BATTERY_+" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="12.7" rot="R90"/>
-<element name="SAFETY_SWITCH_IN" library="con-ptr500" package="AK500/2" value="" x="5.08" y="3.81">
-<attribute name="OC_FARNELL" value="unknown" x="5.08" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="5.08" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="5.08" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="5.08" y="3.81" size="1.778" layer="27" display="off"/>
+<element name="BATTERY_-" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="-3.81" y="3.81"/>
+<element name="BATTERY_+" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="-8.89" y="3.81"/>
+<element name="SAFETY_SWITCH_IN" library="con-ptr500" package="AK500/2" value="" x="-17.78" y="-3.81">
+<attribute name="OC_FARNELL" value="unknown" x="-17.78" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-17.78" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-17.78" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-17.78" y="-3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SAFETY_SWITCH_OUT" library="con-ptr500" package="AK500/2" value="" x="16.51" y="3.81">
-<attribute name="OC_FARNELL" value="unknown" x="16.51" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="16.51" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="16.51" y="3.81" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="16.51" y="3.81" size="1.778" layer="27" display="off"/>
+<element name="SAFETY_SWITCH_OUT" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-3.81">
+<attribute name="OC_FARNELL" value="unknown" x="-29.21" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-29.21" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-29.21" y="-3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-29.21" y="-3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="STEPPER_MOTOR_IN" library="con-ptr500" package="AK500/2" value="" x="26.67" y="5.08" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="11.43" y="-6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="11.43" y="-6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="11.43" y="-6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="11.43" y="-6.35" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="STEPPER_MOTOR_IN" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-15.24">
+<attribute name="OC_FARNELL" value="unknown" x="-40.64" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-40.64" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-40.64" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-40.64" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BLDC_MOTOR_IN" library="con-ptr500" package="AK500/2" value="" x="26.67" y="16.51" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="11.43" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="11.43" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="11.43" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="11.43" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BLDC_MOTOR_IN" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-26.67">
+<attribute name="OC_FARNELL" value="unknown" x="-40.64" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-40.64" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-40.64" y="-11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-40.64" y="-11.43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BLDC_MOTOR_OUT" library="con-ptr500" package="AK500/2" value="" x="26.67" y="27.94" rot="R90">
-<attribute name="OC_FARNELL" value="unknown" x="11.43" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="11.43" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="11.43" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="11.43" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="BLDC_MOTOR_OUT" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-38.1">
+<attribute name="OC_FARNELL" value="unknown" x="-40.64" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-40.64" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-40.64" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-40.64" y="-22.86" size="1.778" layer="27" display="off"/>
 </element>
-<element name="STM32_NUCLEO_POWER" library="con-ptr500" package="AK500/2" value="" x="22.225" y="40.64" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="33.655" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="33.655" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="33.655" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="33.655" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="STM32_NUCLEO_POWER" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-49.53">
+<attribute name="OC_FARNELL" value="unknown" x="-40.64" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-40.64" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-40.64" y="-34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-40.64" y="-34.29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RPI_PICO_W_POWER" library="con-ptr500" package="AK500/2" value="" x="10.795" y="40.64" rot="R180">
-<attribute name="OC_FARNELL" value="unknown" x="22.225" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="22.225" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="22.225" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="22.225" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="RPI_PICO_W_POWER" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-60.96">
+<attribute name="OC_FARNELL" value="unknown" x="-40.64" y="-45.72" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-40.64" y="-45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-40.64" y="-45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-40.64" y="-45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED_STRIPE_POWER" library="con-ptr500" package="AK500/2" value="" x="9.525" y="30.48" rot="R270">
-<attribute name="OC_FARNELL" value="unknown" x="24.765" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="24.765" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="" x="24.765" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="24.765" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED_STRIPE_POWER" library="con-ptr500" package="AK500/2" value="" x="-29.21" y="-72.39">
+<attribute name="OC_FARNELL" value="unknown" x="-40.64" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="-40.64" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="-40.64" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-40.64" y="-57.15" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BATTERY_-1" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="22.86" rot="R90"/>
-<element name="BATTERY_+1" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="10.16" rot="R90"/>
 </elements>
 <signals>
-<signal name="12V">
+<signal name="N$1">
 <contactref element="BATTERY_+" pad="1"/>
 <contactref element="SAFETY_SWITCH_IN" pad="1"/>
 <contactref element="SAFETY_SWITCH_IN" pad="2"/>
-<contactref element="BATTERY_+1" pad="1"/>
-<wire x1="3.81" y1="12.7" x2="3.81" y2="10.16" width="0.8128" layer="1"/>
-<wire x1="3.81" y1="10.16" x2="3.81" y2="8.89" width="0.8128" layer="1"/>
-<wire x1="3.81" y1="8.89" x2="5.08" y2="7.62" width="0.8128" layer="1"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="6.3246" width="0.8128" layer="1"/>
-<wire x1="5.08" y1="6.3246" x2="2.5654" y2="3.81" width="0.8128" layer="1"/>
-<wire x1="7.5946" y1="3.81" x2="5.08" y2="6.3246" width="0.8128" layer="1"/>
+<wire x1="-15.2654" y1="-3.81" x2="-20.2946" y2="-3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.89" y1="3.81" x2="-15.2654" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="BATTERY_-" pad="1"/>
 <contactref element="STEPPER_MOTOR_IN" pad="2"/>
 <contactref element="BLDC_MOTOR_IN" pad="2"/>
+<contactref element="BLDC_MOTOR_OUT" pad="1"/>
 <contactref element="RPI_PICO_W_POWER" pad="1"/>
 <contactref element="STM32_NUCLEO_POWER" pad="1"/>
 <contactref element="LED_STRIPE_POWER" pad="1"/>
-<contactref element="BLDC_MOTOR_OUT" pad="1"/>
-<contactref element="BATTERY_-1" pad="1"/>
-<wire x1="3.81" y1="20.32" x2="3.81" y2="24.13" width="0.8128" layer="1"/>
-<wire x1="3.81" y1="24.13" x2="1.27" y2="26.67" width="0.8128" layer="1"/>
-<wire x1="1.27" y1="26.67" x2="1.27" y2="30.48" width="0.8128" layer="1"/>
-<wire x1="1.27" y1="30.48" x2="1.27" y2="43.18" width="0.8128" layer="1"/>
-<wire x1="1.27" y1="43.18" x2="3.81" y2="45.72" width="0.8128" layer="1"/>
-<wire x1="3.81" y1="45.72" x2="11.43" y2="45.72" width="0.8128" layer="1"/>
-<wire x1="11.43" y1="45.72" x2="22.86" y2="45.72" width="0.8128" layer="1"/>
-<wire x1="22.86" y1="45.72" x2="29.21" y2="45.72" width="0.8128" layer="1"/>
-<wire x1="29.21" y1="45.72" x2="31.75" y2="43.18" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="43.18" x2="31.75" y2="27.94" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="27.94" x2="31.75" y2="21.59" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="21.59" x2="31.75" y2="10.16" width="0.8128" layer="1"/>
-<wire x1="31.75" y1="10.16" x2="29.21" y2="7.62" width="0.8128" layer="1"/>
-<wire x1="29.21" y1="7.62" x2="26.6954" y2="7.62" width="0.8128" layer="1"/>
-<wire x1="26.6954" y1="7.62" x2="26.67" y2="7.5946" width="0.8128" layer="1"/>
-<wire x1="26.67" y1="19.0246" x2="29.1846" y2="19.0246" width="0.8128" layer="1"/>
-<wire x1="29.1846" y1="19.0246" x2="31.75" y2="21.59" width="0.8128" layer="1"/>
-<wire x1="26.67" y1="25.4254" x2="29.1846" y2="25.4254" width="0.8128" layer="1"/>
-<wire x1="29.1846" y1="25.4254" x2="29.21" y2="25.4" width="0.8128" layer="1"/>
-<wire x1="29.21" y1="25.4" x2="31.75" y2="27.94" width="0.8128" layer="1"/>
-<wire x1="24.7396" y1="40.64" x2="24.7396" y2="43.8404" width="0.8128" layer="1"/>
-<wire x1="24.7396" y1="43.8404" x2="22.86" y2="45.72" width="0.8128" layer="1"/>
-<wire x1="13.3096" y1="40.64" x2="13.3096" y2="43.8404" width="0.8128" layer="1"/>
-<wire x1="13.3096" y1="43.8404" x2="11.43" y2="45.72" width="0.8128" layer="1"/>
-<wire x1="9.525" y1="32.9946" x2="3.7846" y2="32.9946" width="0.8128" layer="1"/>
-<wire x1="3.7846" y1="32.9946" x2="1.27" y2="30.48" width="0.8128" layer="1"/>
-<wire x1="3.81" y1="24.13" x2="3.81" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.7246" y1="-60.96" x2="-31.7246" y2="-72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.7246" y1="-49.53" x2="-31.7246" y2="-60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.7246" y1="-38.1" x2="-31.7246" y2="-49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.6954" y1="-26.67" x2="-31.7246" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.6954" y1="-15.24" x2="-26.6954" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.81" y1="3.81" x2="-26.6954" y2="-15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STEPPER_MOTOR">
 <contactref element="SAFETY_SWITCH_OUT" pad="2"/>
 <contactref element="STEPPER_MOTOR_IN" pad="1"/>
-<wire x1="19.0246" y1="3.81" x2="19.05" y2="3.81" width="0.8128" layer="1"/>
-<wire x1="19.05" y1="3.81" x2="20.32" y2="2.54" width="0.8128" layer="1"/>
-<wire x1="20.32" y1="2.54" x2="26.6446" y2="2.54" width="0.8128" layer="1"/>
-<wire x1="26.6446" y1="2.54" x2="26.67" y2="2.5654" width="0.8128" layer="1"/>
+<wire x1="-26.6954" y1="-3.81" x2="-31.7246" y2="-15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BLDC_MOTOR">
 <contactref element="SAFETY_SWITCH_OUT" pad="1"/>
 <contactref element="BLDC_MOTOR_IN" pad="1"/>
-<wire x1="26.67" y1="13.9954" x2="24.1554" y2="13.9954" width="0.8128" layer="1"/>
-<wire x1="24.1554" y1="13.9954" x2="22.86" y2="12.7" width="0.8128" layer="1"/>
-<wire x1="22.86" y1="12.7" x2="22.86" y2="10.16" width="0.8128" layer="1"/>
-<wire x1="22.86" y1="10.16" x2="20.32" y2="7.62" width="0.8128" layer="1"/>
-<wire x1="20.32" y1="7.62" x2="17.78" y2="7.62" width="0.8128" layer="1"/>
-<wire x1="17.78" y1="7.62" x2="17.78" y2="7.5946" width="0.8128" layer="1"/>
-<wire x1="17.78" y1="7.5946" x2="13.9954" y2="3.81" width="0.8128" layer="1"/>
+<wire x1="-31.7246" y1="-3.81" x2="-31.7246" y2="-26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
+<contactref element="BLDC_MOTOR_OUT" pad="2"/>
 <contactref element="RPI_PICO_W_POWER" pad="2"/>
 <contactref element="STM32_NUCLEO_POWER" pad="2"/>
 <contactref element="LED_STRIPE_POWER" pad="2"/>
-<contactref element="BLDC_MOTOR_OUT" pad="2"/>
-<wire x1="26.67" y1="30.4546" x2="26.67" y2="31.75" width="0.8128" layer="1"/>
-<wire x1="26.67" y1="31.75" x2="21.59" y2="36.83" width="0.8128" layer="1"/>
-<wire x1="21.59" y1="36.83" x2="16.51" y2="36.83" width="0.8128" layer="1"/>
-<wire x1="16.51" y1="36.83" x2="15.24" y2="35.56" width="0.8128" layer="1"/>
-<wire x1="15.24" y1="35.56" x2="13.97" y2="34.29" width="0.8128" layer="1"/>
-<wire x1="13.97" y1="34.29" x2="13.97" y2="29.21" width="0.8128" layer="1"/>
-<wire x1="13.97" y1="29.21" x2="12.7" y2="27.94" width="0.8128" layer="1"/>
-<wire x1="12.7" y1="27.94" x2="9.5504" y2="27.94" width="0.8128" layer="1"/>
-<wire x1="9.5504" y1="27.94" x2="9.525" y2="27.9654" width="0.8128" layer="1"/>
-<wire x1="19.7104" y1="40.64" x2="19.7104" y2="38.7096" width="0.8128" layer="1"/>
-<wire x1="19.7104" y1="38.7096" x2="21.59" y2="36.83" width="0.8128" layer="1"/>
-<wire x1="8.2804" y1="40.64" x2="8.2804" y2="39.9796" width="0.8128" layer="1"/>
-<wire x1="8.2804" y1="39.9796" x2="12.7" y2="35.56" width="0.8128" layer="1"/>
-<wire x1="12.7" y1="35.56" x2="15.24" y2="35.56" width="0.8128" layer="1"/>
+<wire x1="-26.6954" y1="-60.96" x2="-26.6954" y2="-72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.6954" y1="-49.53" x2="-26.6954" y2="-60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.6954" y1="-38.1" x2="-26.6954" y2="-49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
