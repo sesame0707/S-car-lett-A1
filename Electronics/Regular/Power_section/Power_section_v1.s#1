@@ -753,7 +753,7 @@ drill 1.4 mm</description>
 <plain>
 <text x="175.26" y="27.94" size="2.54" layer="94">Author: sesame0707</text>
 <text x="205.994" y="11.43" size="2.54" layer="94">6</text>
-<text x="261.62" y="7.112" size="2.54" layer="94">1.0</text>
+<text x="261.62" y="7.112" size="2.54" layer="94">1.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

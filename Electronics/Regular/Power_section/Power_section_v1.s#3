@@ -730,7 +730,7 @@
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="12V" class="0">
 <segment>
 <pinref part="BATTERY_+" gate="G$1" pin="P"/>
 <pinref part="SAFETY_SWITCH_IN" gate="-1" pin="KL"/>
@@ -745,6 +745,7 @@
 <wire x1="81.28" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <junction x="83.82" y="93.98"/>
+<label x="119.38" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">

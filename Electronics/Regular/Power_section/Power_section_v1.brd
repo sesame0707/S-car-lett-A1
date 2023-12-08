@@ -415,8 +415,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BATTERY_-" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="20.32" rot="R90"/>
-<element name="BATTERY_+" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="12.7" rot="R90"/>
+<element name="BATTERY_-" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="2.54" y="20.32" rot="R90"/>
+<element name="BATTERY_+" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="2.54" y="12.7" rot="R90"/>
 <element name="SAFETY_SWITCH_IN" library="con-ptr500" package="AK500/2" value="" x="5.08" y="3.81">
 <attribute name="OC_FARNELL" value="unknown" x="5.08" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="5.08" y="3.81" size="1.778" layer="27" display="off"/>
@@ -465,8 +465,8 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="21.59" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="21.59" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="BATTERY_-1" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="22.86" rot="R90"/>
-<element name="BATTERY_+1" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="3.81" y="10.16" rot="R90"/>
+<element name="BATTERY_-1" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="2.54" y="22.86" rot="R90"/>
+<element name="BATTERY_+1" library="wirepad" package="SMD2,54-5,08" value="WIREPADSMD2,54-5,08" x="2.54" y="10.16" rot="R90"/>
 <element name="FUSE_IN" library="solpad" package="SE14" value="SE14" x="16.51" y="29.845"/>
 <element name="FUSE_OUT" library="solpad" package="SE14" value="SE14" x="16.51" y="14.605"/>
 </elements>
@@ -492,32 +492,32 @@ design rules under a new name.</description>
 <contactref element="LED_STRIPE_POWER" pad="1"/>
 <contactref element="BLDC_MOTOR_OUT" pad="1"/>
 <contactref element="BATTERY_-1" pad="1"/>
-<wire x1="3.81" y1="20.32" x2="3.81" y2="22.86" width="1.27" layer="1"/>
-<wire x1="3.81" y1="22.86" x2="3.81" y2="23.495" width="1.778" layer="1"/>
-<wire x1="3.81" y1="23.495" x2="1.27" y2="26.035" width="1.778" layer="1"/>
-<wire x1="1.27" y1="26.035" x2="1.27" y2="31.115" width="1.778" layer="1"/>
-<wire x1="1.27" y1="31.115" x2="1.27" y2="43.18" width="1.778" layer="1"/>
-<wire x1="1.27" y1="43.18" x2="3.81" y2="45.72" width="1.778" layer="1"/>
-<wire x1="3.81" y1="45.72" x2="11.43" y2="45.72" width="1.778" layer="1"/>
-<wire x1="11.43" y1="45.72" x2="22.86" y2="45.72" width="1.778" layer="1"/>
-<wire x1="22.86" y1="45.72" x2="29.21" y2="45.72" width="1.778" layer="1"/>
-<wire x1="29.21" y1="45.72" x2="31.75" y2="43.18" width="1.778" layer="1"/>
-<wire x1="31.75" y1="43.18" x2="31.75" y2="27.305" width="1.778" layer="1"/>
-<wire x1="31.75" y1="27.305" x2="31.75" y2="20.955" width="1.778" layer="1"/>
-<wire x1="31.75" y1="20.955" x2="31.75" y2="9.525" width="1.778" layer="1"/>
-<wire x1="31.75" y1="9.525" x2="29.845" y2="7.62" width="1.778" layer="1"/>
-<wire x1="29.845" y1="7.62" x2="26.6954" y2="7.62" width="1.778" layer="1"/>
-<wire x1="26.6954" y1="7.62" x2="26.67" y2="7.5946" width="1.778" layer="1"/>
-<wire x1="26.67" y1="19.0246" x2="29.8196" y2="19.0246" width="1.778" layer="1"/>
-<wire x1="29.8196" y1="19.0246" x2="31.75" y2="20.955" width="1.778" layer="1"/>
-<wire x1="26.67" y1="25.4254" x2="29.8704" y2="25.4254" width="1.778" layer="1"/>
-<wire x1="29.8704" y1="25.4254" x2="31.75" y2="27.305" width="1.778" layer="1"/>
-<wire x1="13.3096" y1="40.64" x2="13.3096" y2="43.8404" width="1.778" layer="1"/>
-<wire x1="13.3096" y1="43.8404" x2="11.43" y2="45.72" width="1.778" layer="1"/>
-<wire x1="24.7396" y1="40.64" x2="24.7396" y2="43.8404" width="1.778" layer="1"/>
-<wire x1="24.7396" y1="43.8404" x2="22.86" y2="45.72" width="1.778" layer="1"/>
-<wire x1="6.35" y1="32.9946" x2="3.1496" y2="32.9946" width="1.778" layer="1"/>
-<wire x1="3.1496" y1="32.9946" x2="1.27" y2="31.115" width="1.778" layer="1"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="22.86" width="2.54" layer="1"/>
+<wire x1="2.54" y1="22.86" x2="2.54" y2="24.13" width="2.54" layer="1"/>
+<wire x1="2.54" y1="24.13" x2="1.27" y2="25.4" width="2.54" layer="1"/>
+<wire x1="1.27" y1="25.4" x2="1.27" y2="30.48" width="2.54" layer="1"/>
+<wire x1="1.27" y1="30.48" x2="1.27" y2="43.18" width="2.54" layer="1"/>
+<wire x1="1.27" y1="43.18" x2="3.81" y2="45.72" width="2.54" layer="1"/>
+<wire x1="3.81" y1="45.72" x2="10.795" y2="45.72" width="2.54" layer="1"/>
+<wire x1="10.795" y1="45.72" x2="22.225" y2="45.72" width="2.54" layer="1"/>
+<wire x1="22.225" y1="45.72" x2="29.21" y2="45.72" width="2.54" layer="1"/>
+<wire x1="29.21" y1="45.72" x2="31.75" y2="43.18" width="2.54" layer="1"/>
+<wire x1="31.75" y1="43.18" x2="31.75" y2="27.94" width="2.54" layer="1"/>
+<wire x1="31.75" y1="27.94" x2="31.75" y2="21.59" width="2.54" layer="1"/>
+<wire x1="31.75" y1="21.59" x2="31.75" y2="10.16" width="2.54" layer="1"/>
+<wire x1="31.75" y1="10.16" x2="29.21" y2="7.62" width="2.54" layer="1"/>
+<wire x1="29.21" y1="7.62" x2="26.6954" y2="7.62" width="2.54" layer="1"/>
+<wire x1="26.6954" y1="7.62" x2="26.67" y2="7.5946" width="2.54" layer="1"/>
+<wire x1="26.67" y1="19.0246" x2="29.1846" y2="19.0246" width="2.54" layer="1"/>
+<wire x1="29.1846" y1="19.0246" x2="31.75" y2="21.59" width="2.54" layer="1"/>
+<wire x1="26.67" y1="25.4254" x2="29.2354" y2="25.4254" width="2.54" layer="1"/>
+<wire x1="29.2354" y1="25.4254" x2="31.75" y2="27.94" width="2.54" layer="1"/>
+<wire x1="24.7396" y1="40.64" x2="24.7396" y2="43.2054" width="2.54" layer="1"/>
+<wire x1="24.7396" y1="43.2054" x2="22.225" y2="45.72" width="2.54" layer="1"/>
+<wire x1="13.3096" y1="40.64" x2="13.3096" y2="43.2054" width="2.54" layer="1"/>
+<wire x1="13.3096" y1="43.2054" x2="10.795" y2="45.72" width="2.54" layer="1"/>
+<wire x1="6.35" y1="32.9946" x2="3.7846" y2="32.9946" width="2.54" layer="1"/>
+<wire x1="3.7846" y1="32.9946" x2="1.27" y2="30.48" width="2.54" layer="1"/>
 </signal>
 <signal name="STEPPER_MOTOR">
 <contactref element="SAFETY_SWITCH_OUT" pad="2"/>
@@ -562,11 +562,11 @@ design rules under a new name.</description>
 <contactref element="BATTERY_+" pad="1"/>
 <contactref element="BATTERY_+1" pad="1"/>
 <contactref element="FUSE_IN" pad="MP"/>
-<wire x1="3.81" y1="12.7" x2="3.81" y2="10.16" width="2.54" layer="1"/>
-<wire x1="3.81" y1="12.7" x2="5.08" y2="11.43" width="2.54" layer="1"/>
-<wire x1="5.08" y1="11.43" x2="6.35" y2="11.43" width="2.54" layer="1"/>
 <wire x1="6.35" y1="11.43" x2="16.51" y2="21.59" width="2.54" layer="1"/>
 <wire x1="16.51" y1="21.59" x2="16.51" y2="29.845" width="2.54" layer="1"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="12.7" width="2.54" layer="1"/>
+<wire x1="2.54" y1="12.7" x2="3.81" y2="11.43" width="2.54" layer="1"/>
+<wire x1="3.81" y1="11.43" x2="6.35" y2="11.43" width="2.54" layer="1"/>
 </signal>
 </signals>
 </board>
