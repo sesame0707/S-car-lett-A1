@@ -138,8 +138,9 @@
 <dimension x1="16.51" y1="2.54" x2="26.67" y2="10.16" x3="21.59" y3="-7.62" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="26.67" y1="10.16" x2="16.51" y2="2.54" x3="-7.62" y3="6.35" textsize="1.778" layer="47" dtype="vertical"/>
 <dimension x1="29.21" y1="0" x2="0" y2="0" x3="14.605" y3="-3.81" textsize="1.778" layer="47" dtype="vertical"/>
-<wire x1="27.94" y1="12.7" x2="0" y2="12.7" width="0.0254" layer="20"/>
-<wire x1="0" y1="12.7" x2="0" y2="0" width="0.0254" layer="20"/>
+<wire x1="27.94" y1="12.7" x2="5.08" y2="12.7" width="0.0254" layer="20"/>
+<wire x1="5.08" y1="12.7" x2="0" y2="7.62" width="0.0254" layer="20"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.0254" layer="20"/>
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.0254" layer="20"/>
 <wire x1="20.32" y1="0" x2="29.21" y2="8.89" width="0.0254" layer="20"/>
 <wire x1="29.21" y1="8.89" x2="29.21" y2="11.43" width="0.0254" layer="20"/>
@@ -469,9 +470,9 @@ design rules under a new name.</description>
 <attribute name="COLOR" value="Yellow" x="26.67" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="CURRENT" value="1.42 mA" x="26.67" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="rc-master-smd" package="R1206" value="1K5" x="4.445" y="8.255"/>
-<element name="R2" library="rc-master-smd" package="R1206" value="680" x="20.955" y="6.985" rot="R225"/>
-<element name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-03-PACKAGE-LONG-PAD" value="JST-XH-03-PIN-LONG-PAD" x="12.7" y="8.255"/>
+<element name="R1" library="rc-master-smd" package="R1206" value="1K5" x="5.08" y="8.89"/>
+<element name="R2" library="rc-master-smd" package="R1206" value="680" x="20.955" y="8.255" rot="R225"/>
+<element name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-03-PACKAGE-LONG-PAD" value="JST-XH-03-PIN-LONG-PAD" x="12.7" y="8.89"/>
 </elements>
 <signals>
 <signal name="API_START_ENGINE">
@@ -481,17 +482,16 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <wire x1="8.89" y1="3.81" x2="16.51" y2="3.81" width="0.254" layer="1"/>
 <wire x1="8.89" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="1"/>
-<wire x1="1.27" y1="3.81" x2="1.27" y2="6.35" width="0.254" layer="1"/>
-<wire x1="1.27" y1="6.35" x2="2.921" y2="8.001" width="0.254" layer="1"/>
-<wire x1="2.921" y1="8.001" x2="2.921" y2="8.255" width="0.254" layer="1"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="6.604" width="0.254" layer="1"/>
+<wire x1="1.27" y1="6.604" x2="3.556" y2="8.89" width="0.254" layer="1"/>
 </signal>
 <signal name="API_TURN_LEFT">
 <contactref element="R2" pad="2"/>
 <contactref element="X2" pad="2"/>
-<wire x1="12.7" y1="8.255" x2="12.7" y2="6.35" width="0.254" layer="1"/>
-<wire x1="12.7" y1="6.35" x2="13.335" y2="5.715" width="0.254" layer="1"/>
-<wire x1="13.335" y1="5.715" x2="19.685" y2="5.715" width="0.254" layer="1"/>
-<wire x1="19.685" y1="5.715" x2="19.87736875" y2="5.90736875" width="0.254" layer="1"/>
+<wire x1="19.87736875" y1="7.17736875" x2="18.415" y2="5.715" width="0.254" layer="1"/>
+<wire x1="13.97" y1="5.715" x2="12.7" y2="6.985" width="0.254" layer="1"/>
+<wire x1="12.7" y1="6.985" x2="12.7" y2="8.89" width="0.254" layer="1"/>
+<wire x1="18.415" y1="5.715" x2="13.97" y2="5.715" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="LED1" pad="K"/>
@@ -504,22 +504,22 @@ design rules under a new name.</description>
 <wire x1="27.94" y1="9.525" x2="27.94" y2="10.16" width="0.254" layer="1"/>
 <wire x1="16.51" y1="1.27" x2="8.89" y2="1.27" width="0.254" layer="1"/>
 <wire x1="8.89" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="1"/>
-<wire x1="15.24" y1="8.255" x2="17.145" y2="8.255" width="0.254" layer="1"/>
-<wire x1="17.145" y1="8.255" x2="20.955" y2="12.065" width="0.254" layer="1"/>
 <wire x1="27.94" y1="10.795" x2="27.94" y2="10.16" width="0.254" layer="1"/>
-<wire x1="20.955" y1="12.065" x2="26.67" y2="12.065" width="0.254" layer="1"/>
+<wire x1="17.145" y1="12.065" x2="26.67" y2="12.065" width="0.254" layer="1"/>
 <wire x1="26.67" y1="12.065" x2="27.94" y2="10.795" width="0.254" layer="1"/>
+<wire x1="15.24" y1="8.89" x2="15.24" y2="10.16" width="0.254" layer="1"/>
+<wire x1="15.24" y1="10.16" x2="17.145" y2="12.065" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED4" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="22.032628125" y1="8.062628125" x2="24.13" y2="10.16" width="0.254" layer="1"/>
-<wire x1="24.13" y1="10.16" x2="25.4" y2="10.16" width="0.254" layer="1"/>
+<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.254" layer="1"/>
+<wire x1="22.86" y1="10.16" x2="22.032628125" y2="9.332628125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
 <contactref element="X2" pad="1"/>
-<wire x1="5.969" y1="8.255" x2="10.16" y2="8.255" width="0.254" layer="1"/>
+<wire x1="6.604" y1="8.89" x2="10.16" y2="8.89" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

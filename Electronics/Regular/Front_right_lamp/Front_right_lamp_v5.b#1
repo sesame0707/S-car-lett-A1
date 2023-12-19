@@ -22,24 +22,24 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -146,6 +146,8 @@
 <dimension x1="20.32" y1="2.54" x2="12.7" y2="2.54" x3="16.51" y3="-7.62" textsize="1.778" layer="47"/>
 <dimension x1="12.7" y1="2.54" x2="2.54" y2="10.16" x3="7.62" y3="-7.62" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="2.54" y1="10.16" x2="12.7" y2="2.54" x3="-7.62" y3="6.35" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="16.51" y1="8.89" x2="29.21" y2="8.89" x3="22.86" y3="-11.43" textsize="1.778" layer="47"/>
+<dimension x1="16.51" y1="8.89" x2="16.51" y2="0" x3="-11.43" y3="4.445" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="led">
@@ -454,25 +456,63 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="LED1" library="led" package="LED5MM" value="2.58 V" x="27.94" y="2.54" rot="R270">
-<attribute name="COLOR" value="White" x="27.94" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CURRENT" value="0.14 mA" x="27.94" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="LED2" library="led" package="LED5MM" value="2.58 V" x="20.32" y="2.54" rot="R270">
-<attribute name="COLOR" value="White" x="20.32" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CURRENT" value="0.14 mA" x="20.32" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="LED3" library="led" package="LED5MM" value="2.58 V" x="12.7" y="2.54" rot="R270">
-<attribute name="COLOR" value="White" x="12.7" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CURRENT" value="0.14 mA" x="12.7" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="LED4" library="led" package="LED5MM" value="1.88 V" x="2.54" y="10.16" rot="R180">
-<attribute name="COLOR" value="Yellow" x="2.54" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CURRENT" value="1.42 mA" x="2.54" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
-<element name="R1" library="rc-master-smd" package="R1206" value="1K5" x="10.16" y="5.715" rot="R90"/>
-<element name="R2" library="rc-master-smd" package="R1206" value="680" x="8.89" y="10.16"/>
 <element name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" package="JST-XH-03-PACKAGE-LONG-PAD" value="JST-XH-03-PIN-LONG-PAD" x="16.51" y="8.89"/>
+<element name="LED1" library="led" package="LED5MM" value="White" x="-10.16" y="-55.88">
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-504wc2v-w2-3pd/diody-led-tht-okragle/luckylight/" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.14 mA" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TME" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-504WC2V-W2-3PD" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="2.58 V" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-504WC2V-W2-3PD" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="White" x="-10.16" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LED2" library="led" package="LED5MM" value="White" x="-10.16" y="-63.5">
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-504wc2v-w2-3pd/diody-led-tht-okragle/luckylight/" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.14 mA" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TME" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-504WC2V-W2-3PD" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="2.58 V" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-504WC2V-W2-3PD" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="White" x="-10.16" y="-63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LED3" library="led" package="LED5MM" value="White" x="-10.16" y="-71.12">
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-504wc2v-w2-3pd/diody-led-tht-okragle/luckylight/" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.14 mA" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TME" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-504WC2V-W2-3PD" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="2.58 V" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-504WC2V-W2-3PD" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="White" x="-10.16" y="-71.12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LED4" library="led" package="LED5MM" value="Yellow" x="-10.16" y="-78.74">
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503yd2e-1b/diody-led-tht-okragle/luckylight/" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.42 mA" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TME" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503YD2E-1B" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.88 V" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503YD2E-1B" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+<attribute name="COLOR" value="Yellow" x="-10.16" y="-78.74" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="rc-master-smd" package="R1206" value="1K5" x="-11.43" y="-85.09">
+<attribute name="RESISTANCE" value="1.5 kOhm" x="-11.43" y="-85.09" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/1206s4j0152t5e/rezystory-smd/royal-ohm/" x="-11.43" y="-85.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="ROYAL OHM" x="-11.43" y="-85.09" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TME" x="-11.43" y="-85.09" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="1206S4J0152T5E" x="-11.43" y="-85.09" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206S4J0152T5E" x="-11.43" y="-85.09" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="rc-master-smd" package="R1206" value="680" x="-11.43" y="-91.44">
+<attribute name="RESISTANCE" value="680 Ohm" x="-11.43" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/1206s4j0681t5e/rezystory-smd/royal-ohm/" x="-11.43" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="ROYAL OHM" x="-11.43" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="TME" x="-11.43" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="1206S4J0681T5E" x="-11.43" y="-91.44" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206S4J0681T5E" x="-11.43" y="-91.44" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="API_START_ENGINE">
@@ -480,48 +520,47 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="A"/>
 <contactref element="LED3" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="10.16" y1="4.191" x2="10.541" y2="3.81" width="0.254" layer="1"/>
-<wire x1="10.541" y1="3.81" x2="12.7" y2="3.81" width="0.254" layer="1"/>
-<wire x1="12.7" y1="3.81" x2="20.32" y2="3.81" width="0.254" layer="1"/>
-<wire x1="20.32" y1="3.81" x2="27.94" y2="3.81" width="0.254" layer="1"/>
+<wire x1="-11.43" y1="-71.12" x2="-12.954" y2="-85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.43" y1="-63.5" x2="-11.43" y2="-71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.43" y1="-55.88" x2="-11.43" y2="-63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="API_TURN_RIGHT">
-<contactref element="R2" pad="2"/>
 <contactref element="X2" pad="2"/>
-<wire x1="10.414" y1="10.16" x2="11.43" y2="10.16" width="0.254" layer="1"/>
 <wire x1="11.43" y1="10.16" x2="12.7" y2="11.43" width="0.254" layer="1"/>
 <wire x1="12.7" y1="11.43" x2="15.24" y2="11.43" width="0.254" layer="1"/>
 <wire x1="15.24" y1="11.43" x2="16.51" y2="10.16" width="0.254" layer="1"/>
 <wire x1="16.51" y1="10.16" x2="16.51" y2="8.89" width="0.254" layer="1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="16.51" y1="8.89" x2="-9.906" y2="-91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="LED1" pad="K"/>
-<contactref element="LED3" pad="K"/>
-<contactref element="LED2" pad="K"/>
-<contactref element="LED4" pad="K"/>
 <contactref element="X2" pad="3"/>
-<wire x1="1.27" y1="10.16" x2="1.27" y2="9.525" width="0.254" layer="1"/>
 <wire x1="1.27" y1="9.525" x2="6.0325" y2="4.7625" width="0.254" layer="1"/>
 <wire x1="6.0325" y1="4.7625" x2="9.525" y2="1.27" width="0.254" layer="1"/>
-<wire x1="9.525" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="1"/>
-<wire x1="12.7" y1="1.27" x2="20.32" y2="1.27" width="0.254" layer="1"/>
-<wire x1="20.32" y1="1.27" x2="27.94" y2="1.27" width="0.254" layer="1"/>
 <wire x1="19.05" y1="8.89" x2="19.05" y2="7.62" width="0.254" layer="1"/>
 <wire x1="19.05" y1="7.62" x2="17.145" y2="5.715" width="0.254" layer="1"/>
 <wire x1="17.145" y1="5.715" x2="6.985" y2="5.715" width="0.254" layer="1"/>
 <wire x1="6.985" y1="5.715" x2="6.0325" y2="4.7625" width="0.254" layer="1"/>
+<contactref element="LED1" pad="K"/>
+<contactref element="LED2" pad="K"/>
+<contactref element="LED3" pad="K"/>
+<contactref element="LED4" pad="K"/>
+<wire x1="-8.89" y1="-71.12" x2="-8.89" y2="-78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.89" y1="-63.5" x2="-8.89" y2="-71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.89" y1="-55.88" x2="-8.89" y2="-63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="9.525" y1="1.27" x2="-8.89" y2="-55.88" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="X2" pad="1"/>
+<wire x1="13.589" y1="7.239" x2="13.97" y2="7.62" width="0.254" layer="1"/>
+<wire x1="13.97" y1="7.62" x2="13.97" y2="8.89" width="0.254" layer="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="13.589" y1="7.239" x2="-9.906" y2="-85.09" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED4" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="3.81" y1="10.16" x2="7.366" y2="10.16" width="0.254" layer="1"/>
-</signal>
-<signal name="N$2">
-<contactref element="R1" pad="2"/>
-<contactref element="X2" pad="1"/>
-<wire x1="10.16" y1="7.239" x2="13.589" y2="7.239" width="0.254" layer="1"/>
-<wire x1="13.589" y1="7.239" x2="13.97" y2="7.62" width="0.254" layer="1"/>
-<wire x1="13.97" y1="7.62" x2="13.97" y2="8.89" width="0.254" layer="1"/>
+<wire x1="-11.43" y1="-78.74" x2="-12.954" y2="-91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
