@@ -2296,9 +2296,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="COLOR" value="Yellow"/>
 <attribute name="CURRENT" value="1.42 mA"/>
 </part>
-<part name="X1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-ROUND-PAD"/>
 <part name="R1" library="rc-master-smd" deviceset="R_" device="1206" value="1K5"/>
 <part name="R2" library="rc-master-smd" deviceset="R_" device="1206" value="680"/>
+<part name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
 </parts>
 <sheets>
 <sheet>
@@ -2326,11 +2326,11 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <attribute name="CURRENT" x="83.82" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="COLOR" x="83.82" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X1" gate="-1" x="198.12" y="121.92"/>
-<instance part="X1" gate="-2" x="198.12" y="119.38"/>
-<instance part="X1" gate="-3" x="198.12" y="116.84"/>
 <instance part="R1" gate="G$1" x="137.16" y="121.92"/>
 <instance part="R2" gate="G$1" x="116.84" y="104.14"/>
+<instance part="X2" gate="-1" x="198.12" y="121.92"/>
+<instance part="X2" gate="-2" x="198.12" y="119.38"/>
+<instance part="X2" gate="-3" x="198.12" y="116.84"/>
 </instances>
 <busses>
 </busses>
@@ -2355,11 +2355,11 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <net name="API_TURN_RIGHT" class="0">
 <segment>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="147.32" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 <label x="167.64" y="119.38" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="147.32" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2382,9 +2382,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="83.82" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="91.44" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
 <junction x="83.82" y="91.44"/>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="167.64" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
 <label x="167.64" y="116.84" size="1.778" layer="95"/>
+<pinref part="X2" gate="-3" pin="S"/>
+<wire x1="167.64" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2398,7 +2398,7 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="X2" gate="-1" pin="S"/>
 <wire x1="142.24" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>

@@ -2277,141 +2277,227 @@ Number of pins: &lt;b&gt;2&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="FRAME1"/>
-<part name="LED1" library="led" deviceset="LED" device="5MM" value="1.78 V">
-<attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT" value="0.32 mA"/>
-</part>
-<part name="LED2" library="led" deviceset="LED" device="5MM" value="1.78 V">
-<attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT" value="0.32 mA"/>
-</part>
-<part name="LED3" library="led" deviceset="LED" device="5MM" value="1.78 V">
-<attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT" value="0.32 mA"/>
-</part>
-<part name="LED4" library="led" deviceset="LED" device="5MM" value="1.78 V">
-<attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT" value="0.32 mA"/>
-</part>
-<part name="LED5" library="led" deviceset="LED" device="5MM" value="1.78 V">
-<attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT" value="0.32 mA"/>
-</part>
-<part name="LED6" library="led" deviceset="LED" device="5MM" value="1.78 V">
-<attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT" value="0.32 mA"/>
-</part>
-<part name="R1" library="rc-master-smd" deviceset="R_" device="1206" value="120"/>
 <part name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
+<part name="R1" library="rc-master-smd" deviceset="R_" device="1206" value="150">
+<attribute name="MANUFACTURER" value="ROYAL OHM"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1206S4J0151T5E"/>
+<attribute name="RESISTANCE" value="150 Ohm"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="1206S4J0151T5E"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/1206s4j0151t5e/rezystory-smd/royal-ohm/"/>
+</part>
+<part name="LED1" library="led" deviceset="LED" device="5MM" value="Red">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.83 V"/>
+</part>
+<part name="LED2" library="led" deviceset="LED" device="5MM" value="Red">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.83 V"/>
+</part>
+<part name="LED3" library="led" deviceset="LED" device="5MM" value="Red">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.83 V"/>
+</part>
+<part name="LED4" library="led" deviceset="LED" device="5MM" value="Red">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.83 V"/>
+</part>
+<part name="LED5" library="led" deviceset="LED" device="5MM" value="Red">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.83 V"/>
+</part>
+<part name="LED6" library="led" deviceset="LED" device="5MM" value="Red">
+<attribute name="COLOR" value="Red"/>
+<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER" value="TME"/>
+<attribute name="SUPPLIER_PART_NUMBER" value="LL-503VD2E-1B"/>
+<attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/"/>
+<attribute name="VOLTAGE_EMPIRICAL" value="1.83 V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="175.26" y="27.94" size="2.54" layer="94">Author: sesame0707</text>
 <text x="205.994" y="11.43" size="2.54" layer="94">5</text>
-<text x="261.62" y="7.112" size="2.54" layer="94">4.0</text>
+<text x="261.62" y="7.112" size="2.54" layer="94">4.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
-<instance part="LED1" gate="G$1" x="58.42" y="109.22">
-<attribute name="CURRENT" x="58.42" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="COLOR" x="58.42" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="X2" gate="-2" x="190.5" y="111.76"/>
+<instance part="X2" gate="-1" x="190.5" y="114.3"/>
+<instance part="R1" gate="G$1" x="162.56" y="114.3">
+<attribute name="MANUFACTURER" x="162.56" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="162.56" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="RESISTANCE" x="162.56" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="162.56" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="162.56" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="162.56" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED2" gate="G$1" x="78.74" y="109.22">
-<attribute name="CURRENT" x="78.74" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="COLOR" x="78.74" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="LED1" gate="G$1" x="88.9" y="109.22">
+<attribute name="CURRENT_EMPIRICAL" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" x="88.9" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED3" gate="G$1" x="101.6" y="109.22">
-<attribute name="CURRENT" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="LED2" gate="G$1" x="101.6" y="109.22">
+<attribute name="CURRENT_EMPIRICAL" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="COLOR" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" x="101.6" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED4" gate="G$1" x="124.46" y="109.22">
-<attribute name="CURRENT" x="124.46" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="COLOR" x="124.46" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="LED3" gate="G$1" x="114.3" y="109.22">
+<attribute name="CURRENT_EMPIRICAL" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" x="114.3" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED5" gate="G$1" x="147.32" y="109.22">
-<attribute name="CURRENT" x="147.32" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="COLOR" x="147.32" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="LED4" gate="G$1" x="127" y="109.22">
+<attribute name="CURRENT_EMPIRICAL" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="127" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" x="127" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED6" gate="G$1" x="170.18" y="109.22">
-<attribute name="CURRENT" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
-<attribute name="COLOR" x="170.18" y="109.22" size="1.778" layer="96" display="off"/>
+<instance part="LED5" gate="G$1" x="139.7" y="109.22">
+<attribute name="CURRENT_EMPIRICAL" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" x="139.7" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="180.34" y="114.3"/>
-<instance part="X2" gate="-2" x="223.52" y="111.76"/>
-<instance part="X2" gate="-1" x="223.52" y="114.3"/>
+<instance part="LED6" gate="G$1" x="152.4" y="109.22">
+<attribute name="CURRENT_EMPIRICAL" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="COLOR" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_PART_NUMBER" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="SUPPLIER_URL" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="VOLTAGE_EMPIRICAL" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="API_BRAKE" class="0">
 <segment>
-<wire x1="58.42" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
-<junction x="78.74" y="114.3"/>
-<wire x1="101.6" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <junction x="101.6" y="114.3"/>
-<label x="190.5" y="114.3" size="1.778" layer="95"/>
-<wire x1="124.46" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
-<junction x="124.46" y="114.3"/>
-<junction x="147.32" y="114.3"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="114.3" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
-<junction x="170.18" y="114.3"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="111.76" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="111.76" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="114.3" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<junction x="114.3" y="114.3"/>
+<label x="170.18" y="114.3" size="1.778" layer="95"/>
+<wire x1="127" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<junction x="127" y="114.3"/>
+<junction x="139.7" y="114.3"/>
+<wire x1="157.48" y1="114.3" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<junction x="152.4" y="114.3"/>
+<wire x1="88.9" y1="111.76" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="111.76" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="111.76" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="127" y1="111.76" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="111.76" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="111.76" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="124.46" y1="111.76" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="147.32" y1="111.76" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="170.18" y1="111.76" x2="170.18" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
+<wire x1="88.9" y1="104.14" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<junction x="88.9" y="101.6"/>
+<wire x1="101.6" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="101.6" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="104.14" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<junction x="101.6" y="101.6"/>
+<wire x1="114.3" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="127" y1="101.6" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="101.6" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
+<junction x="114.3" y="101.6"/>
+<wire x1="139.7" y1="104.14" x2="139.7" y2="101.6" width="0.1524" layer="91"/>
+<junction x="139.7" y="101.6"/>
+<wire x1="127" y1="104.14" x2="127" y2="101.6" width="0.1524" layer="91"/>
+<junction x="127" y="101.6"/>
+<wire x1="83.82" y1="101.6" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="96.52" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="170.18" y="111.76" size="1.778" layer="95"/>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="170.18" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="104.14" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<junction x="58.42" y="101.6"/>
-<wire x1="78.74" y1="101.6" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="101.6" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="104.14" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
-<junction x="78.74" y="101.6"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="101.6" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="101.6" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
-<junction x="101.6" y="101.6"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
-<wire x1="147.32" y1="104.14" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-<junction x="147.32" y="101.6"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="124.46" y1="104.14" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<junction x="124.46" y="101.6"/>
-<wire x1="53.34" y1="101.6" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="96.52" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="96.52" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
-<label x="190.5" y="111.76" size="1.778" layer="95"/>
-<pinref part="X2" gate="-2" pin="S"/>
-<wire x1="190.5" y1="111.76" x2="220.98" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="X2" gate="-1" pin="S"/>
-<wire x1="185.42" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
