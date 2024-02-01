@@ -1,3 +1,14 @@
-# LED stripe
-0,42 A @ 5 V = 2,1 W - (only red 60x sub-LEDs)
-1,26 A (?) @ 5V = 6,3 W - (all 60x sub-LEDs)
+LED stripes
+-----------
+Only red 60x sub-LEDs:	0.42 A @ 5 V = 2.1 W
+All 60x sub-LEDs:	1.26 A (?) @ 5 V = 6.3 W
+
+Lamps
+-----
+Start engine: 	1.6 mA
+Turn left: 	4 mA
+Turn right: 	4 mA
+Brake: 		12 mA
+Withdraw: 	0.3 mA
+
+ALL LAMPS: 21.9 mA @ 3.3 V = 0.07 W
