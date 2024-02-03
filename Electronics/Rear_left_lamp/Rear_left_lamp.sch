@@ -2292,7 +2292,7 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device="" value="FRAME1"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM" value="Red">
 <attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.15 mA"/>
 <attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
 <attribute name="SUPPLIER" value="TME"/>
@@ -2323,7 +2323,7 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </part>
 <part name="LED2" library="led" deviceset="LED" device="5MM" value="Red">
 <attribute name="COLOR" value="Red"/>
-<attribute name="CURRENT_EMPIRICAL" value="1.48 mA"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.15 mA"/>
 <attribute name="MANUFACTURER" value="LUCKYLIGHT"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B"/>
 <attribute name="SUPPLIER" value="TME"/>
@@ -2379,7 +2379,7 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <plain>
 <text x="175.26" y="27.94" size="2.54" layer="94">Author: sesame0707</text>
 <text x="205.994" y="11.43" size="2.54" layer="94">3</text>
-<text x="261.62" y="7.112" size="2.54" layer="94">4.1</text>
+<text x="261.62" y="7.112" size="2.54" layer="94">4.2</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

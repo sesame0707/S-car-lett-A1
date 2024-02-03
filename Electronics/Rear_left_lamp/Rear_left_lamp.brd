@@ -459,7 +459,7 @@ design rules under a new name.</description>
 <elements>
 <element name="LED1" library="led" package="LED5MM" value="Red" x="17.78" y="2.54" rot="R270">
 <attribute name="COLOR" value="Red" x="17.78" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CURRENT_EMPIRICAL" value="1.48 mA" x="17.78" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.15 mA" x="17.78" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="LUCKYLIGHT" x="17.78" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B" x="17.78" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="TME" x="17.78" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
@@ -494,7 +494,7 @@ design rules under a new name.</description>
 <attribute name="SUPPLIER_URL" value="https://www.tme.eu/pl/details/ll-503vd2e-1b/diody-led-tht-okragle/luckylight/" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_EMPIRICAL" value="1.83 V" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="TME" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CURRENT_EMPIRICAL" value="1.48 mA" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CURRENT_EMPIRICAL" value="0.15 mA" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="LUCKYLIGHT" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LL-503VD2E-1B" x="25.4" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
