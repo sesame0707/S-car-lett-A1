@@ -1,14 +1,68 @@
+Stepper motor
+-------------
+Inactive:		0.22 A @ 11 V = 2.42 W
+Active:			0.72 A @ 11 V = 7.92 W
+
+BLDC motor
+----------
+Without load:
+-2 gear:		0.20 A @ 11 V = 2.20 W
+-1 gear:		0.17 A @ 11 V = 1.87 W
+0 gear:			0.01 A @ 11 V = 0.11 W
+1 gear:			0.17 A @ 11 V = 1.87 W
+2 gear:			0.20 A @ 11 V = 2.20 W
+3 gear:			0.26 A @ 11 V = 2.86 W
+4 gear:			0.27 A @ 11 V = 2.97 W
+
+With load:		<= 0.50 A @ 11 V = 5.50 W
+
+STM32 Nucleo
+------------
+Under load:		500 mA (?) @ 5 V = 2.50 W
+
+	Lamps
+	-----
+	Start engine: 		1.6 mA
+	Turn left: 		4.0 mA
+	Turn right: 		4.0 mA
+	Brake: 			12.0 mA
+	Withdraw: 		0.3 mA
+	
+	All lamps:		21.9 mA @ 3.3 V = 0.07 W
+
+RPi Pico W
+----------
+Under load:		150 mA (?) @ 5 V = 0.75 W
+
 LED stripes
 -----------
-Only red 60x sub-LEDs:	0.42 A @ 5 V = 2.1 W
-All 60x sub-LEDs:	1.26 A (?) @ 5 V = 6.3 W
+All 14x sub-LEDs:	0.43 A @ 5 V = 2.15 W
 
-Lamps
------
-Start engine: 	1.6 mA
-Turn left: 	4 mA
-Turn right: 	4 mA
-Brake: 		12 mA
-Withdraw: 	0.3 mA
+Rechargeable battery
+--------------------
+Type:			Li-Po
+Capacity:		24.98 Wh
+Cells:			3S
+Power output:		60C
+Allowed voltage:	9.0 V - 12.6 V
 
-ALL LAMPS: 21.9 mA @ 3.3 V = 0.07 W
+Current x charge level
+----------------------
+0 % (9.0 V):		1.49 A + 0.60 A = 2.09 A
+25 % (10.2 V):		1.32 A + 0.53 A = 1.85 A
+50 % (10.8 V):		1.24 A + 0.50 A = 1.74 A
+75 % (11.4 V):		1.18 A + 0.47 A = 1.65 A
+100 % (12.6 V):		1.07 A + 0.43 A = 1.50 A
+
+Recommended fuses
+-----------------
+11 V main line:		2.50 A
+5 V main line:		1.25 A
+5 V STM32 line:		0.25 A
+3.3 V STM32 line:	0.25 A
+
+Summary
+-------
+Maximum total power draw:		13.42 W (11 V main line) + 5.40 W (5 V main line) = 18.82 W
+Theoretical minimum working time:	1.33 h (1 h 20 min)
+Theoretical average working time:	2.66 h (2 h 40 min)
