@@ -41,10 +41,12 @@ All 14x sub-LEDs:	0.43 A @ 5 V = 2.15 W
 Rechargeable battery
 --------------------
 Type:			Li-Po
-Capacity:		24.98 Wh
+Energy capacity:	24.98 Wh
+Charge capacity:	2250 mAh
 Cells:			3S
-Power output:		60C
-Allowed voltage:	9.0 V - 12.6 V
+Maximum power output:	60C
+Charge power input:	1C
+Allowed total voltage:	9.0 V - 12.6 V
 
 Current x charge level
 ----------------------
