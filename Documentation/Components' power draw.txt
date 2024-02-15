@@ -40,12 +40,14 @@ All 14x sub-LEDs:	0.43 A @ 5 V = 2.15 W
 
 Rechargeable battery
 --------------------
+Brand:			Sunpadow
 Type:			Li-Po
 Energy capacity:	24.98 Wh
 Charge capacity:	2250 mAh
-Cells:			3S
+Cells:			3S-ERC
 Maximum power output:	60C
 Charge power input:	1C
+Nominal total voltage:	11.1 V
 Allowed total voltage:	9.0 V - 12.6 V
 
 Current x charge level
