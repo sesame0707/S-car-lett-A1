@@ -32,7 +32,7 @@ Under load:		500 mA (?) @ 5 V = 2.50 W
 
 RPi Pico W
 ----------
-Under load:		150 mA (?) @ 5 V = 0.75 W
+Under load:		100 mA @ 5 V = 0.50 W
 
 LED stripes
 -----------
@@ -67,6 +67,6 @@ Recommended fuses
 
 Summary
 -------
-Maximum total power draw:		13.42 W (11 V main line) + 5.40 W (5 V main line) = 18.82 W
-Theoretical minimum working time:	1.33 h (1 h 20 min)
-Theoretical average working time:	2.66 h (2 h 40 min)
+Maximum total power draw:		13.42 W (11 V main line) + 5.40 W (?) (5 V main line) = 18.82 W
+Theoretical minimum working time:	1.33 h (1 h 20 min) (?)
+Theoretical average working time:	2.66 h (2 h 40 min) (?)
