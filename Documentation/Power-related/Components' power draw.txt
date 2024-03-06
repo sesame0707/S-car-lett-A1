@@ -16,6 +16,18 @@ Without load:
 
 With load:		<= 0.50 A @ 11 V = 5.50 W
 
+Voltmeter
+---------
+19.00 mA @ 12.60 V = 0.24 W
+16.50 mA @ 11.00 V = 0.18 W
+22.50 mA @ 9.00 V = 0.20 W
+
+Battery level indicator
+-----------------------
+4.85 mA @ 12.60 V = 0.06 W
+4.75 mA @ 11.00 V = 0.05 W
+3.50 mA @ 9.00 V = 0.03 W
+
 STM32 Nucleo
 ------------
 Under load:		500 mA (?) @ 5 V = 2.50 W
@@ -52,11 +64,11 @@ Allowed total voltage:	9.0 V - 12.6 V
 
 Current x charge level
 ----------------------
-0 % (9.0 V):		1.49 A + 0.60 A = 2.09 A
-25 % (10.2 V):		1.32 A + 0.53 A = 1.85 A
-50 % (10.8 V):		1.24 A + 0.50 A = 1.74 A
-75 % (11.4 V):		1.18 A + 0.47 A = 1.65 A
-100 % (12.6 V):		1.07 A + 0.43 A = 1.50 A
+0 % (9.0 V):		1.52 A + 0.60 A = 2.12 A
+25 % (10.2 V):		1.35 A + 0.53 A = 1.88 A
+50 % (10.8 V):		1.27 A + 0.50 A = 1.77 A
+75 % (11.4 V):		1.21 A + 0.47 A = 1.68 A
+100 % (12.6 V):		1.10 A + 0.43 A = 1.53 A
 
 Recommended fuses
 -----------------
@@ -67,6 +79,6 @@ Recommended fuses
 
 Summary
 -------
-Maximum total power draw:		13.42 W (11 V main line) + 5.40 W (?) (5 V main line) = 18.82 W
+Maximum total power draw:		13.72 W (11 V main line) + 5.40 W (?) (5 V main line) = 18.82 W
 Theoretical minimum working time:	1.33 h (1 h 20 min) (?)
 Theoretical average working time:	2.66 h (2 h 40 min) (?)
