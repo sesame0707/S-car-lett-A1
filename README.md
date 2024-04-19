@@ -1,2 +1,2 @@
 # S-car-lett-A1
-1st A-line car in the S(car)lett project
+1st A-line car in S(car)lett project
