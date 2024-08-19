@@ -16,7 +16,7 @@
 # It contains a serial number and references to the file structure
 # on your computer.
 # comment the following line if you want to have your project file included.
-eagle.epf
+# eagle.epf
 
 # Autorouter files
 *.pro
@@ -55,3 +55,6 @@ eagle.epf
 *.lck
 
 # End of https://www.toptal.com/developers/gitignore/api/eagle
+
+# Additional ignored items
+[Gg]erber/
